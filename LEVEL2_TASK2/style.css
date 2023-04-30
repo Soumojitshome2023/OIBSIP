@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&dp=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&dp=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Helvetica, "Libre Franklin", sans-serif;
+    line-height: 1.5;
+    background-image: linear-gradient(rgb(73, 61, 61), rgb(88, 29, 59), rgb(51, 23, 65), rgb(128, 48, 17));
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(114, 97, 97), rgb(51, 23, 65), rgb(0, 0, 0));
+}
+
+.intro {
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    width: 50%;
+}
+
+.intro h1 {
+    color: #efefef;
+    font-weight: unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    font-size: 400%;
+}
+
+.intro h3 {
+    color: rgb(179, 179, 179);
+    font-weight: 400;
+    font-size: 253%;
+}
+
+.intro h5 {
+    color: rgb(179, 179, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 133%;
+}
+
+.einstein-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 57%;
+    height: 94.3vh;
+    bottom: 0%;
+}
+
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cntnr {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bg-bio {
+    color: #fff;
+}
+
+
+
+.biography {
+    height: auto;
+    padding: 3rem 2rem;
+
+}
+
+.biography .bio {
+    margin-bottom: 8rem;
+}
+
+.biography .bio h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    color: rgb(255, 244, 92);
+}
+
+.biography .bio p {
+    font-size: 1rem;
+}
+
+.biography h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: rgb(201, 190, 48);
+}
+
+.biography p {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#invention-page {
+    max-width: 900px;
+    padding: 3rem 2rem;
+    height: auto;
+}
+
+#invention-page h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.inv-heading {
+    font-size: 1.5rem;
+}
+
+#invention-page h3 span {
+    color: rgb(201, 190, 48);
+}
+
+#invention-page p {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#invention-page span {
+    font-weight: bold;
+
+}
+
+#invention-page ul {
+    position: relative;
+}
+
+#invention-page li {
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px 5px #a914ff;
+}
+
+
+#invention-page .dscbtn {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    letter-spacing: normal;
+}
+
+.inv-box {
+    background-color: rgb(196, 196, 196);
+}
+
+
+footer {
+    background-image: linear-gradient(90deg, rgb(255, 62, 62), rgb(51, 23, 65), rgb(226, 81, 24));
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+
+header {
+    background-image: linear-gradient(90deg, rgb(255, 62, 62), rgb(51, 23, 65), rgb(226, 81, 24));
+
+    color: #fff;
+    text-align: center;
+    /* padding: 1px; */
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+nav {
+    height: 45px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 45px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav li a:hover {
+    background-color: #8d8d8d4d;
+}
+
+
