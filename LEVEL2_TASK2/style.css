@@ -246,3 +246,33 @@ nav li a:hover {
 }
 
 
+
+@media screen and (max-width: 1140px) {
+
+.einstein-img {
+
+    height: 250px;
+}
+.intro h3 {
+    font-size: 120%;
+    
+}
+.intro h1 {
+    font-size: 120%;
+
+}
+
+ 
+.intro {
+    text-align: center;
+    top: 10%;
+    width: 100%;
+} 
+.intro h5 {
+    font-size: 80%;
+    left: 20%;
+    text-align: center;
+
+}
+}
+
