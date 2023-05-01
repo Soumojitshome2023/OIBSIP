@@ -24,6 +24,8 @@ body {
     background-image: linear-gradient(rgb(114, 97, 97), rgb(51, 23, 65), rgb(0, 0, 0));
 }
 
+
+
 .intro {
     position: absolute;
     right: 0%;
@@ -36,28 +38,33 @@ body {
     font-weight: unset;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
-    font-size: 400%;
+    /* font-size: 400%; */
+    font-size: 5vw;
 }
 
 .intro h3 {
     color: rgb(179, 179, 179);
     font-weight: 400;
-    font-size: 253%;
+    /* font-size: 253%; */
+    font-size: 2vw;
 }
 
 .intro h5 {
     color: rgb(179, 179, 179);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    font-size: 133%;
+    /* font-size: 133%; */
+    font-size: 1.9vw;
 }
 
 .einstein-img {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    width: 57%;
-    height: 94.3vh;
+    /* width: 57%; */
+    width: 50vw;
+    /* height: 94.3vh; */
+
     bottom: 0%;
 }
 
@@ -247,32 +254,35 @@ nav li a:hover {
 
 
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 700px) {
+    .einstein-img {
 
-.einstein-img {
+        width: 60vh;
+    }
 
-    height: 250px;
+    .intro h3 {
+        /* font-size: 120%; */
+        font-size: 5vw;
+    }
+
+    .intro h1 {
+        /* font-size: 120%; */
+        font-size: 6vw;
+
+    }
+
+    .intro {
+        text-align: center;
+        top: 10%;
+        width: 100%;
+    }
+
+    .intro h5 {
+        font-size: 95%;
+        left: 20%;
+        text-align: center;
+        /* font-size: 2vw; */
+
+    }
+
 }
-.intro h3 {
-    font-size: 120%;
-    
-}
-.intro h1 {
-    font-size: 120%;
-
-}
-
- 
-.intro {
-    text-align: center;
-    top: 10%;
-    width: 100%;
-} 
-.intro h5 {
-    font-size: 80%;
-    left: 20%;
-    text-align: center;
-
-}
-}
-
